@@ -46,6 +46,10 @@ ul.detail {
     position: relative;
 }
 
+p.price {
+    top: -44px;
+}
+
 
 
 
