@@ -1,5 +1,44 @@
 *{margin: 0;padding: 0;font-family: 'Quicksand', sans-serif;}
 
+.box {
+    width: 20px;
+    height: 20px;
+    border: 1px solid;
+    float: left;
+    position: relative;
+    bottom: -7px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.cate>li {
+    border-bottom: 1px dotted;
+    margin-top: 15px;
+}
+
+.detail li {
+    line-height: 37px;
+}
+
+.cate p.title {
+    text-transform: uppercase;
+}
+
+.menu-left ul {
+    list-style: none;
+}
+
+ul.detail {
+    margin-left: 15px;
+}
+
+.menu-left {
+    position: fixed;
+    width: 12%;
+    left: 8%;
+    top: 100px;
+}
+
 .khoisp p {
     padding-top: 10px;
     margin-bottom: 0;
@@ -23,6 +62,7 @@ a.btn {
 
 a.btn:hover {
     background: none;
+    color: #97a774;
 }
 
 
