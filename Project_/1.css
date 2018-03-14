@@ -1,0 +1,313 @@
+*{margin: 0;padding: 0;font-family: 'Quicksand', sans-serif;}
+
+.mail {
+    width: 100%;
+    height: 300px;
+    background: url(img/bg.jpg);
+    margin-top: 50px;
+    text-align: center;
+    background-size: cover;
+    padding: 142px 0px 0px 0px;
+}
+
+li {
+    margin: 5px 0px;
+}
+
+.submenu>li>ul>li:hover {font-weight: bold;}
+
+a.sub {
+    color: #6e6b96;
+}
+
+a.sub:hover {
+    text-decoration: none;
+}
+
+.menu>ul>li {
+    float: left;
+    width: 20%;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    color: #6e6b96;
+}
+
+.submenu>li {
+    width: 50%;
+    font-size: 20px;
+    float: left;
+    background: white;
+    color: black;
+    padding: 10px;
+}
+
+.menu ul {
+    list-style: none;
+    width: 100%;
+}
+
+ul.submenu {
+    width: 500px;
+    background: white;
+    position: relative;
+    left: 25px;
+    opacity: 0;
+    visibility: hidden;
+    top: -7px;
+    transition: 0.3s;
+}
+
+ul.submenu:hover {
+    opacity: 1;
+    visibility: visible;
+}
+
+ul.submenu.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.menu {
+    position: absolute;
+    z-index: 10;
+    width: 500px;
+    margin: auto;
+    top: 200px;
+    left: 50%;
+    margin-left: -250px;
+}
+
+.khoishop img.bg {
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    height: 100%;
+    left: 0px;
+    transition: 0.4s;
+    opacity: 0;
+}
+
+.l img.bg {
+    transform: rotate(180deg);
+}
+
+.khoishop:hover img.bg {
+    opacity: 1;
+}
+
+.khoiimg {}
+
+.mota {
+    position: absolute;
+    top: 130PX;
+    right: 50px;
+    /* width: 36%; */
+    text-align: right;
+    opacity: 0.4;
+}
+
+.l .mota {
+    left: 50px;
+    text-align: left;
+}
+
+.khoishop:hover .mota {
+    width: 722px!important;
+    opacity: 1;
+}
+
+.khoishop {
+    color: white;
+    height: 400px;
+    overflow: hidden;
+    text-align: center;
+    transition: 0.8s;
+    /* margin: 25px 0px; */
+}
+
+.khoishop:hover {
+    color: black;
+}
+.khoishop:hover img.avt{
+    opacity: 0.5;
+    transform: translateX(-50px);
+}
+
+.l:hover img.avt {
+    transform: translateX(50px)!important;
+}
+
+.khoishop img.avt {
+    width: 100%;
+    position: relative;
+    z-index: -1;
+    transition: 0.4s;
+    top: -65px;
+}
+
+.khoind h2 {
+    position: absolute;
+    bottom: 16px;
+    width: 90%;
+    margin-left: 5%;
+    text-transform: uppercase;
+    color: #80808061;
+    transition: 0.3s;
+}
+
+.khoind:hover h2 {
+    color: black;
+}
+
+.khoind:hover img {
+    transform: scale(1.1);
+}
+
+p.price {
+    font-size: 25px;font-weight: bold;
+    
+    }
+.khoind p {
+    transform: translateY(-33px);
+    transition: 0.3s;
+}
+p.des {
+    margin: 0px 20px;
+    float: left;
+    width: 80%;
+    
+}
+
+.khoind {
+    height: 356px;
+    overflow: hidden;
+    float: left;
+    cursor: pointer;
+    margin: 13px 0px;
+}
+
+.khoind:hover p.des, .khoind:hover p.price {
+    transform: translateY(0px);
+}
+
+.khoind img {
+    width: 95%;
+    position: absolute;
+    z-index: -1;
+    transition: 0.4s;
+}
+
+.description {
+    text-align: center;
+    width: 100%;
+    padding: 90px 0px;
+}
+
+.khoicarousel {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.turnright {
+    right: 0px;
+}
+
+.turnleft,.turnright {
+    position: absolute;
+    height: 100%;
+    width: 25%;
+    text-align: center;
+    color: #ffffff21;
+    font-size: 40px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.turn:hover {
+    background: #0000000a;
+    color: white;
+}
+
+a.btn {
+    color: white;
+    background: #00000059;
+    font-size: 20px;
+    transition: 0.2s;
+}
+
+a.btn:hover {
+    background: #ffffff;
+    color: black;
+}
+
+.khoianh h1 {
+    margin-top: 20%;
+    font-size: 60px;
+    font-weight: bold;
+}
+h1 {
+    font-family: 'Arvo', serif;
+    margin-bottom: 15px;
+}
+
+.khoishop h1 {
+    font-size: 50px;
+}
+
+.khoicarousel img {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+.khoianh {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: white;
+    transition: 0.5s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    float: left;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.khoianh.active {
+    transform: translateX(0);
+    opacity: 1;
+    visibility: visible;
+}
+
+.khoianh.hide {
+    animation : hide 0.8s forwards;
+}
+.khoianh.hider {
+    animation : hider 0.8s forwards;
+}
+.khoianh.hidee {
+    animation : hidee 0.8s forwards;
+}
+@-webkit-keyframes hide {
+    50% {transform : translateX(21%)}
+}
+
+@-webkit-keyframes hider {
+    50% {transform : translateX(-21%)}
+}
+
+@-webkit-keyframes hidee {
+    50% {transform : scale(0.5)
+        opacity : 0.2;
+        }
+}
+
+
+
