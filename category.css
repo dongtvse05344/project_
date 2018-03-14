@@ -1,1 +1,63 @@
 *{margin: 0;padding: 0;font-family: 'Quicksand', sans-serif;}
+
+.khoisp p {
+    padding-top: 10px;
+    margin-bottom: 0;
+}
+
+
+
+
+a.btn {
+    border: 1px solid;
+    width: 155px;
+    position: relative;
+    top: -70px;
+    z-index: 20;
+    color: #eceef0;
+    background: #87a774;
+    transition: 0.2s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+a.btn:hover {
+    background: none;
+}
+
+
+
+ .khoisp h2 {
+    text-align: left;
+    margin-left: 10px;
+    width: 272px;
+    float: left;
+    font-size: 30px;
+    z-index: 22;
+    position: relative;
+    top: -35px;
+}
+
+.khoisp {
+    text-align: center;
+    height: 450px;
+    overflow: hidden;
+    background: #eceef0;
+    transition: 0.2s;
+    margin: 15px 0px;
+    box-sizing: border-box;
+}
+
+.khoisp:hover  {border-radius: 5px;transform: scale(1.02);box-shadow: 0 0 5px 9px #87a7743d;}
+
+.khoisp:hover a.btn {
+    opacity: 1;
+    visibility: visible;
+}
+
+.khoisp img {
+    width: 95%;
+    transition: 0.4s;
+    position: relative;
+    z-index: 1;
+}

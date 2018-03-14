@@ -1,23 +1,75 @@
 *{margin: 0;padding: 0;font-family: 'Quicksand', sans-serif;}
 
+
+.menu-top {
+    display: none;
+}
+
+.menu-top.hien {
+    display: block;
+}
+.description p {
+    color: #87a774;
+}
+
+.mota p {
+    color: gray;
+}
+
+.description h1 {
+}
+
+
+.mail img.bg {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    z-index: -2;
+}
+
 .mail {
     width: 100%;
     height: 300px;
-    background: url(img/bg.jpg);
+    /* background: url(img/bg.jpg); */
     margin-top: 50px;
     text-align: center;
     background-size: cover;
-    padding: 142px 0px 0px 0px;
+    padding: inherit;
+}
+
+.menu.hien {
+    background: black;
+}
+
+.mail {
+    width: 100%;
+    height: 300px;
+    /* background: url(img/bg.jpg); */
+    margin-top: 50px;
+    text-align: center;
+    background-size: cover;
+    /* padding: 142px 0px 0px 0px; */
+    overflow: hidden;
 }
 
 li {
-    margin: 5px 0px;
+    margin: 6px 0px;
+}
+
+.submenu>li>ul>li {
+    text-transform: uppercase;
+    font-size: 20px;
+    margin: 8px 0px;
+    border-bottom: 1px solid #8080804f;
 }
 
 .submenu>li>ul>li:hover {font-weight: bold;}
 
 a.sub {
-    color: #6e6b96;
+    color: #e6ffd8;
+    text-transform: uppercase;
 }
 
 a.sub:hover {
@@ -50,12 +102,14 @@ a.sub:hover {
 ul.submenu {
     width: 500px;
     background: white;
-    position: relative;
+    position: absolute;
     left: 25px;
     opacity: 0;
     visibility: hidden;
-    top: -7px;
+    top: 30px;
     transition: 0.3s;
+    margin: 10px 0px;
+    left: 23px;
 }
 
 ul.submenu:hover {
@@ -152,8 +206,9 @@ ul.submenu.active {
     width: 90%;
     margin-left: 5%;
     text-transform: uppercase;
-    color: #80808061;
+    color: #87a774a3;
     transition: 0.3s;
+    font-size: 25px;
 }
 
 .khoind:hover h2 {
@@ -165,12 +220,21 @@ ul.submenu.active {
 }
 
 p.price {
-    font-size: 25px;font-weight: bold;
-    
+    font-size: 25px;
+    font-weight: bold;
+    opacity: 0;
+    transition: 0.4s;
+    position: relative;
+    z-index: 2;
     }
+
+.khoisp:hover p.price {
+    opacity: 1;
+}
 .khoind p {
     transform: translateY(-33px);
     transition: 0.3s;
+    opacity: 1;
 }
 p.des {
     margin: 0px 20px;
@@ -204,6 +268,10 @@ p.des {
     padding: 90px 0px;
 }
 
+.description h1 {
+    font-size: 45px;
+}
+
 .khoicarousel {
     width: 100%;
     position: relative;
@@ -233,14 +301,14 @@ p.des {
 
 a.btn {
     color: white;
-    background: #00000059;
+    background: #87a77461;
     font-size: 20px;
     transition: 0.2s;
 }
 
 a.btn:hover {
     background: #ffffff;
-    color: black;
+    color: #87a774;
 }
 
 .khoianh h1 {
@@ -253,8 +321,17 @@ h1 {
     margin-bottom: 15px;
 }
 
+.de h1 {}
+
+.mail h1 {
+    margin-top: 140px;
+    color: #87a774;
+    font-size: 42px;
+}
+
 .khoishop h1 {
-    font-size: 50px;
+    font-size: 40px;
+    /* color: #87a774; */
 }
 
 .khoicarousel img {

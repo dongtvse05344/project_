@@ -5,13 +5,12 @@ $(function(){
 		console.log($('html,body').scrollTop());
 		if ($('html,body').scrollTop() > 200)
 	 	{
-	 		$('.menu').addClass('hien');
+	 		$('.menu-top').addClass('hien');
 	 	}
  		else 
 	 	{
-	 		$('.menu').removeClass('hien');
+	 		$('.menu-top').removeClass('hien');
 	 	}
  	});
-
 
 })

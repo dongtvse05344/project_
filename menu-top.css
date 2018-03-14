@@ -1,0 +1,50 @@
+.menu-top>ul>li {
+    float: left;
+    line-height: 80px;
+    text-align: center;
+    width: 10%;
+    text-transform: uppercase;
+}
+.menu-top>ul {
+    width: 70%;
+    list-style: none;
+    margin: auto;
+    height: 100%;
+}
+
+.menu-top {
+    width: 100%;
+    height: 80px;
+    transition: 0.2s;
+}
+
+.menu-top.hien {
+    position: fixed;
+    z-index: 2000;
+    background: white;
+    border-bottom: 1px solid gray;
+}
+.menu-top a {
+    color: black;
+}
+.menu-top a:focus {
+    text-decoration: none;
+}
+
+.menu-top a:hover {
+    text-decoration: none;
+    color: #87a774;
+}
+
+.menu-top li:nth-child(1) {
+    color: #87a774;
+    width: 20%!important;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Wakanda Forever';
+    margin: 0px;
+    margin-top: -5px;
+}
+.menu-top li:last-child {
+    width: 20%!important;
+}
