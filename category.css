@@ -1,5 +1,13 @@
 *{margin: 0;padding: 0;font-family: 'Quicksand', sans-serif;}
 
+p.status {
+    position: relative;
+    z-index: 21;
+    text-transform: uppercase;
+}
+
+span.price {float: right;color: #ff5050;font-weight: bold;}
+
 .box {
     width: 20px;
     height: 20px;
@@ -39,15 +47,17 @@ ul.detail {
     top: 100px;
 }
 
-.khoisp p {
-    padding-top: 10px;
-    margin-bottom: 0;
-    z-index: 2000;
+.khoisp p.des {
+    padding-top: 0.5rem;
     position: relative;
+    top: -44px;
+    text-align: left;
+    color: gray;
 }
 
 p.price {
-    top: -44px;
+    top: -65px;
+    line-height: 2px;
 }
 
 
@@ -57,7 +67,7 @@ a.btn {
     border: 1px solid;
     width: 155px;
     position: relative;
-    top: -95px;
+    top: -78px;
     z-index: 20;
     color: #eceef0;
     background: #87a774;
@@ -74,14 +84,14 @@ a.btn:hover {
 
 
  .khoisp h2 {
-    text-align: left;
+    text-align: center;
     margin-left: 10px;
-    width: 272px;
+    width: 95%;
     float: left;
-    font-size: 30px;
+    font-size: 1.5rem;
     z-index: 22;
     position: relative;
-    top: -74px;
+    top: -60px;
 }
 
 .khoisp {
@@ -92,6 +102,7 @@ a.btn:hover {
     transition: 0.2s;
     margin: 15px 0px;
     box-sizing: border-box;
+    padding: 1% 9%;
 }
 
 .khoisp:hover  {border-radius: 5px;transform: scale(1.02);box-shadow: 0 0 5px 9px #87a7743d;}
@@ -106,5 +117,5 @@ a.btn:hover {
     transition: 0.4s;
     position: relative;
     z-index: 1;
-    top: -20px;
+    top: -5px;
 }

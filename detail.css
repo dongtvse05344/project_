@@ -1,0 +1,168 @@
+*{margin: 0;padding: 0;font-family: 'Quicksand', sans-serif;}
+
+.qc p {
+    width: 100%;
+    float: left;
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: 1s;
+    transform: scale(0);
+}
+
+.qc p.active {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+}
+
+.qc p.hidee {
+    animation : hidee 1s forwards;
+}
+
+@-webkit-keyframes hidee {
+    0%{
+        opacity: 1;
+        visibility: visible;
+    }
+    100% {transform : translateX(100%);
+        }
+}
+
+.row.qc {
+    height: 50px;
+    background: #d2ddcb;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    overflow: hidden;
+}
+
+ul.social li {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    font-size: 20px;
+}
+
+ul.social {
+    list-style: none;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.more li {
+    width: 25%;
+    float: left;
+    list-style: none;
+}
+
+.more li:first-child{
+    opacity: 0.8;
+}
+
+.more img {
+    width: 85%;
+    cursor: pointer;
+}
+
+img.main {
+    width: 90%;
+}
+
+a.check {
+    color: black;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+a.check:hover {
+    text-decoration: none;
+    color: #d70000;
+}
+
+ul.size li {
+    float: left;
+    width: 16.6667%;
+    border: 1px solid #ffffff;
+    border-right: 0px;
+    padding: 4px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+ul.size li:hover {
+    border: 1px solid #bfbfbf;
+}
+
+ul.size li:last-child {
+    /* border-right: 1px solid #bfbfbf; */
+}
+
+ul.more {
+    width: 60%;
+    margin: auto;
+    margin-top: 11px;
+}
+
+ul.size {
+    list-style: none;
+    padding: 0px;
+}
+
+p.title {
+    text-transform: uppercase;
+    margin: 10px 0px 0px 0px;
+    border: 1px solid #d6d6d6;
+    border-bottom: 0px;
+    padding: 10px 0px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+a.btn.sign:hover {
+    background: #87a78a;
+    color: white;
+}
+
+a.btn {
+    text-transform: uppercase;
+    transition: 0.4s;
+}
+
+a.btn.add {
+    margin: 30px 0px;
+    font-size: 18px;
+    padding: 17px;
+    border: 1px solid;
+    width: 100%;
+    border-radius: 0;
+    background: #87a774;
+    color: white;
+}
+
+a.btn.add:hover {
+    color: white;
+    background: #c00000;
+}
+
+a.btn.sign {
+    color: black;
+    border: 1px solid;
+    border-radius: 0px;
+    padding: 10px;
+    font-size: 18px;
+    margin: 45px 0px;
+    width: 80%;
+}
+
+.col-r h3 {
+    font-size: 20px;
+}
+
+.col-r h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+
