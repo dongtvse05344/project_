@@ -1,5 +1,23 @@
 *{margin: 0;padding: 0;font-family: 'Quicksand', sans-serif;}
 
+.shuu h1 {
+    height: 80px;
+    line-height: 80px;
+    background: white;
+    width: 455px;
+    margin: auto;
+    margin-top: 18px;
+    border-radius: 10px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #87a774;
+}
+
+.shuu {
+    height: 120px;
+    background: #87a774;
+}
 .title h1 {
     text-align: center;
     line-height: 100px;
