@@ -12,18 +12,22 @@
  	<link rel="stylesheet" href="1.css">
  	<link rel="stylesheet" href="menu-top.css">
  	<link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+
+ 	<!-- WOW . JS -->
+	<link rel="stylesheet" href="vendor/animate.min.css">
+	
 </head>
 <body onload="init()">
-	<div class="menu-top">
+	<div class="menu-top ">
 		<ul>
 			<li>Wakanda</li>
 			<li><a href="home.html">home</a></li>
 			<li><a href="category.html">product</a></li>
-			<li><a href="#">event</a></li>
-			<li><a href="#">service</a></li>
+			<li><a href="event.html">event</a></li>
+			<li><a href="news.html">news</a></li>
 			<li><a href="#">contact</a></li>
 			<li><a href="#"><i class="fa fa-shopping-cart"></i> Cart</a></li>
-			<li><a href="#">sign in</a></li>
+			<li><a href="signup.html">sign in</a></li>
 		</ul>
 	</div>
 	<div class="menu">
@@ -93,9 +97,9 @@
 			<div class="khoicarousel">
 				<div class="khoianh active ">
 					<img src="img/2.jpg" alt="">
-					<h1>SHUU</h1>
-					<p>You may not control all the events that happen to you, but you can decide not to be reduced by them</p>
-					<a href="#" class="btn">View More</a>
+					<h1 class="wow bounceInLeft" data-wow-delay=".2s">SHUU</h1>
+					<p class="wow bounceInRight" data-wow-delay=".6s">You may not control all the events that happen to you, but you can decide not to be reduced by them</p>
+					<a href="#" class="btn wow bounceInUp" data-wow-delay=".9s">View More</a>
 				</div>
 				<div class="khoianh  ">
 					<img src="img/3.jpg" alt="">
@@ -161,7 +165,7 @@
 	<div class="container-fluid">
 		<div class="row ">
 			<div class="description ttshop">
-				<h1>STORE RETAIL SYSTEM</h1>
+				<h1 class="wow tada">STORE RETAIL SYSTEM</h1>
 			</div>
 		</div>
 	</div>
@@ -197,5 +201,11 @@
 		<h1>SIGN UP FOR SHUU EMAIL</h1>
 		<p>Be the first to know about the latest products, exclusives and offers from Shuu</p>
 	</div>
+
+
+	<script src="vendor/wow.min.js"></script>
+	<script>
+	 	new WOW().init();
+	</script>
 </body>
 </html>

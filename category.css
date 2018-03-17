@@ -1,5 +1,22 @@
 *{margin: 0;padding: 0;font-family: 'Quicksand', sans-serif;}
 
+.shuu h1 {
+    height: 80px;
+    line-height: 80px;
+    background: white;
+    width: 300px;
+    margin: auto;
+    margin-top: 18px;
+    border-radius: 10px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: bold;
+}
+
+.shuu {
+    height: 120px;
+    background: #87a774;
+}
+
 p.status {
     position: relative;
     z-index: 21;
@@ -43,8 +60,8 @@ ul.detail {
 .menu-left {
     position: fixed;
     width: 12%;
-    left: 8%;
-    top: 100px;
+    left: 5%;
+    top: 200px;
 }
 
 .khoisp p.des {

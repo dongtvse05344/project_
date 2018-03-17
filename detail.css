@@ -1,5 +1,13 @@
 *{margin: 0;padding: 0;font-family: 'Quicksand', sans-serif;}
 
+.col-r {
+    padding-top: 25px;
+}
+
+.col-r p {
+    font-size: 15px;
+}
+
 .qc p {
     width: 100%;
     float: left;
@@ -43,12 +51,15 @@ ul.social li {
     width: 33.33%;
     text-align: center;
     font-size: 20px;
+    color: #898989;
+    cursor: pointer;
 }
 
 ul.social {
     list-style: none;
-    width: 100%;
-    margin-top: 15px;
+    width: 40%;
+    /* margin-top: 15px; */
+    margin: auto;
 }
 
 .more li {
@@ -152,7 +163,7 @@ a.btn.sign {
     border-radius: 0px;
     padding: 10px;
     font-size: 18px;
-    margin: 45px 0px;
+    margin: 45px 0px 10px;
     width: 80%;
 }
 
@@ -161,7 +172,7 @@ a.btn.sign {
 }
 
 .col-r h2 {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
     margin: 20px 0px;
 }

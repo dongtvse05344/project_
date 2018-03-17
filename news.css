@@ -1,0 +1,128 @@
+*{margin: 0;padding: 0;font-family: 'Quicksand', sans-serif;}
+
+.title h1 {
+    text-align: center;
+    line-height: 100px;
+}
+
+.title {
+    height: 100px;
+    width: 100%;
+}
+
+.khoinews p {
+    color: gray;
+    font-size: 15px;
+}
+
+.khoinews p.cate {
+    color: #ff2e2e;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.khoinews p.date {
+    font-weight: bold;
+}
+
+.khoinews .right {
+    padding: 35px 10px 0px 0px;
+}
+
+.khoinews h2 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.row.khoinews {
+    margin: 10px 0px;
+    height: 300px;
+}
+
+.khoinews img {
+    width: 100%;
+    border-radius: 5px;
+    height: 100%;
+}
+
+.khoianh h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.row.carou {
+    position: relative;
+}
+.turnright {
+    right: 0px;
+}
+
+.turnleft,.turnright {
+    position: absolute;
+    height: 100%;
+    width: 10%;
+    text-align: center;
+    color: #ffffff21;
+    font-size: 40px;
+    transition: 0.4s;
+    cursor: pointer;
+    line-height: 500px;
+}
+
+.turn:hover {
+    background: #0000000a;
+    color: white;
+}
+
+.khoianh img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 0;
+}
+
+.khoianh {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.4s;
+}
+
+.khoianh.active {
+    opacity: 1;
+    visibility: visible;
+    box-sizing: border-box;
+    padding: 25% 0% 0px 10%;
+    color: white;
+}
+
+.khoianh p {
+    width: 80%;
+    color: #d5d5d5;
+}
+
+.khoicarousel {
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+
+a.btn {
+    color: white;
+    background: #87a77461;
+    font-size: 20px;
+    transition: 0.2s;
+}
+
+a.btn:hover {
+    background: #ffffff;
+    color: #87a774;
+}

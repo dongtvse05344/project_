@@ -15,6 +15,17 @@ function init(){
 }
 
 $(function(){
+	$('.more img').addClass('wow');
+	$('.more img').addClass('bounceInLeft');
+	var t = 0;
+	$('.more img').each(function(index, el) {
+		$(this).attr({
+			"data-wow-delay": t*0.2 +"s"
+		});
+		t++;
+	});
+
+
 	$('.more img').click(function(event) {
 		$(".more li").css("opacity","1");
 		$(".more img").css("opacity","1");

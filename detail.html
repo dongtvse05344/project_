@@ -14,19 +14,21 @@
  	<link rel="stylesheet" href="menu-top.css">
  	<link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
  	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+ 	<!-- WOW . JS -->
+	<link rel="stylesheet" href="vendor/animate.min.css">
 </head>
 <body onload="init()">
 	<div class="container-fluid">
-		<div class="menu-top">
+		<div class="menu-top ">
 			<ul>
 				<li>Wakanda</li>
 				<li><a href="home.html">home</a></li>
 				<li><a href="category.html">product</a></li>
-				<li><a href="#">event</a></li>
-				<li><a href="#">service</a></li>
+				<li><a href="event.html">event</a></li>
+				<li><a href="news.html">news</a></li>
 				<li><a href="#">contact</a></li>
 				<li><a href="#"><i class="fa fa-shopping-cart"></i> Cart</a></li>
-				<li><a href="#">sign in</a></li>
+				<li><a href="signup.html">sign in</a></li>
 			</ul>
 		</div>
 	</div>
@@ -54,7 +56,6 @@
 				<h2>AIR JORDAN</h2>
 				<h3>AIR JORDAN 4 RETRO "ROYALTY"</h3>
 				<h2>$230</h2>
-				<a href="#" class="btn sign">sign up for price drops</a>
 				<p class="title">size</p>
 				<ul class="size">
 					<li>7</li>
@@ -66,6 +67,9 @@
 				</ul>
 				<a href="#" class="btn add">add to cart</a>
 				<a href="#" class="check">Check in store availability</a>
+				<p>308497 032  | black , metallic gold-white | 2017</p>
+				<a href="#" class="btn sign">sign up for price drops</a>
+
 				<ul class="social">
 					<li><i class="fa fa-facebook"></i></li>
 					<li><i class="fa fa-twitter"></i></li>
@@ -75,5 +79,11 @@
 		</div>
 		
 	</div>
+
+
+	<script src="vendor/wow.min.js"></script>
+	<script>
+	 	new WOW().init();
+	</script>
 </body>
 </html>

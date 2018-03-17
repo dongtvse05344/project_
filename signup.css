@@ -1,0 +1,43 @@
+*{margin: 0;padding: 0;font-family: 'Quicksand', sans-serif;}
+
+button.btn.a {
+    background: #87a774;
+    border: 0px;
+    transition: 0.2s;
+}
+
+button.btn.a:active {
+    background: #87a774;
+    color: gray!important;
+}
+button.btn.a:visited {
+    background: #87a774;
+    color: gray!important;
+}
+button.btn.a:focus {
+    background: #87a774;
+    color: gray!important;
+}
+
+button.btn.a:hover {
+    background: white;
+    color: #87a774;
+}
+
+form {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: white;
+    margin-top: 60%;
+}
+
+body {
+    height: 100vh;
+}
+#particles-js
+{
+    height: 100%;
+    background: url(img/galaxy.jpg);
+    background-size: cover;
+}
