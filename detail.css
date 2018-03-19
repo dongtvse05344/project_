@@ -1,5 +1,56 @@
 *{margin: 0;padding: 0;font-family: 'Quicksand', sans-serif;}
 
+.tool span {
+    margin-left: 15px;
+}
+
+p.tool {
+    clear: both;
+    color: gray;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 60px!important;
+    cursor: pointer;
+}
+
+.subcmt .subcmt {
+    clear: both;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+.cmt {
+    margin-top: 50px;
+}
+
+.subcmt p {
+    line-height: 50px;
+    float: left;
+    margin: 0px;
+    margin-left: 8px;
+    width: 89%;
+}
+
+.cmt input[type="text"] {
+    width: 89%;
+    border: 0px;
+    border-bottom: 1px solid #cecece;
+    height: 50px;
+    padding: 0px 5px;
+    transition: 0.1s;
+}
+
+.cmt input[type="text"]:focus {outline: 0px;width: 89%;border-bottom: 1px solid #4d4d4d;}
+
+.cmt img.avt {
+    width: 50px;
+}
+
+.subcmt img.avt {
+    float: left;
+    border-radius: 50%;
+}
+
 .col-r {
     padding-top: 25px;
 }
@@ -100,6 +151,10 @@ ul.size li {
     padding: 4px;
     cursor: pointer;
     box-sizing: border-box;
+}
+
+li.selected {
+    border: 1px solid #808080!important;
 }
 
 ul.size li:hover {

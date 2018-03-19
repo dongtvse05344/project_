@@ -36,4 +36,12 @@ $(function(){
 		});
 	});
 
+	//selec size
+
+	$('.size li').click(function(event) {
+		/* Act on the event */
+		$('.size li').removeClass('selected');
+		$(this).addClass('selected');
+	});
+
 })

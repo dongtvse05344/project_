@@ -262,7 +262,7 @@ p.des {
 .description {
     text-align: center;
     width: 100%;
-    padding: 90px 0px;
+    padding: 90px 0px 20px 0px;
 }
 
 .description h1 {

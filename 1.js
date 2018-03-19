@@ -13,10 +13,20 @@ function init(){
 			$('.khoianh:nth-child('+pos+')').addClass('active');
 
 
-		}, 10000);
-		
+		}, 10000);		
 }
 $(function(){
+	$('.khoind').addClass('wow');
+	$('.khoind').addClass('bounceIn');
+
+	pos = 2;
+	$('.khoind').each(function(index, el) {
+		$(this).attr("data-wow-delay",0.2*pos+"s");
+		pos++;
+	});
+
+
+
 	var docao =$(window).height();
 	$('.khoicarousel').css({'height':docao});
 	$('.turn').css({'line-height':docao+'px'})
@@ -59,8 +69,16 @@ $(function(){
     if(e.originalEvent.wheelDelta / 120 > 0) {
         //alert('up');
     } else {
-    	//console.log($('.description').offset().top);
-       	//$('html,body').animate({	scrollTop: $('.description').offset().top}, 1000);
+       	$('html,body').animate({	scrollTop: $('.description').offset().top}, 1000,"easeInOutExpo");
+       	//$('body').animate({	opacity: 0.3}, 1000);
+    }
+	});
+
+	$('.toptrend').bind('mousewheel', function(e) {
+    if(e.originalEvent.wheelDelta / 120 > 0) {
+        //alert('up');
+    } else {
+       	$('html,body').animate({	scrollTop: $('.ttshop').offset().top - 50}, 1000,"easeInOutExpo");
        	//$('body').animate({	opacity: 0.3}, 1000);
     }
 	});

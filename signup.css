@@ -1,5 +1,59 @@
 *{margin: 0;padding: 0;font-family: 'Quicksand', sans-serif;}
 
+input#exampleCheck1 {
+    height: 30px;
+    width: 25px;
+}
+
+body {
+    height: 100%;
+    overflow: hidden;
+}
+.social p {
+    line-height: 40px;
+    text-align: center;
+}
+
+i.fa {
+    float: left;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    /* border-right: 1px solid white; */
+}
+
+i.fa.fa-google {
+    background: #ea4235;
+}
+
+i.fa.fa-facebook {
+    background: #3b589e;
+}
+
+.social {
+    font-size: 20px;
+    height: 40px;
+    padding: 0;
+    border-radius: 5px;
+    margin: 0px 5px;
+    position: relative;
+    top: 325px;
+    left: 4px;
+    cursor: pointer;
+}
+
+.gg {
+    border: 1px solid #ea4235;
+    color: white;
+}
+
+.fb {
+    /* background: #3b589e; */
+    color: white;
+    border: 1px solid #3b589e;
+}
+
 button.btn.a {
     background: #87a774;
     border: 0px;
@@ -30,6 +84,7 @@ form {
     text-align: center;
     color: white;
     margin-top: 60%;
+    font-size: 25px;
 }
 
 body {

@@ -9,6 +9,10 @@
     width: 10%;
     text-transform: uppercase;
 }
+
+.menu-top>ul>li.active>a {
+    color: #87a774!important;
+}
 .menu-top>ul {
     width: 70%;
     list-style: none;
@@ -27,8 +31,11 @@
     position: fixed;
     z-index: 2000;
     background: white;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid #a6a774;
     opacity: 1;
+    background: #ededed;
+    top: 0;
+    left: 0;
 }
 .menu-top a {
     color: black;
