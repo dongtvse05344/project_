@@ -113,6 +113,7 @@
     z-index: -1;
     left: 0;
     top: 0;
+    transition: 0.4s;
 }
 
 .khoianh {
@@ -132,6 +133,12 @@
     box-sizing: border-box;
     padding: 25% 0% 0px 10%;
     color: white;
+    overflow: hidden;
+}
+
+.khoianh.active:hover img {
+    transform: scale(1.1);
+    opacity: 0.8;
 }
 
 .khoianh p {
