@@ -13,7 +13,34 @@ function init(){
 			$('.khoianh:nth-child('+poskhoianh+')').addClass('active');
 
 
-		}, 10000);		
+		}, 10000);	
+
+		var arr= new  Array("img/top/0.jpg",
+								"img/top/1.jpg",
+								"img/top/2.jpg",
+								"img/top/3.jpg",
+								"img/top/4.jpg",
+								"img/top/5.jpg",
+								"img/top/6.jpg");
+		var checkarr =  new Array(false,true, true, true, true, false, false);
+
+
+		setInterval(function(){ 
+
+			x = Math.floor((Math.random() * 4) + 1);
+			var y = Math.floor((Math.random() * 6) + 1);
+			while(checkarr[y])
+			{
+				y = Math.floor((Math.random() * 6) + 1);
+			}
+
+			checkarr[$('.topimg:nth-child('+x+') img').attr('alt')] = false;
+			checkarr[y] = true;
+			$('.topimg:nth-child('+x+') img').attr({
+				'src': arr[y],
+				'alt': y
+			});
+		}, 1000);	
 }
 $(function(){
 	$('.khoind').addClass('wow');
