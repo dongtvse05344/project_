@@ -131,7 +131,7 @@
     opacity: 1;
     visibility: visible;
     box-sizing: border-box;
-    padding: 25% 0% 0px 10%;
+    padding: 25% 10% 0px 10%;
     color: white;
     overflow: hidden;
 }

@@ -1,0 +1,197 @@
+*{margin: 0;padding: 0;font-family: 'Quicksand', sans-serif;}
+
+.banner-top h1 {
+    font-weight: bold;
+    color: #c8c8c8;
+    font-size: 50px;
+    width: 400px;
+    margin: auto;
+    background: #00000070;
+    height: 70px;
+    line-height: 70px;
+    cursor: none;
+    transition: 0.2s;
+}
+
+    .banner-top {
+        text-align: center;
+        width: 100%;
+        height: 150px;
+        display: block;
+        padding: 2em 0;
+        background-size: cover;
+    }
+
+.banner-top a:hover {
+    color: red;
+}
+
+    .banner-top h1:hover 
+    {
+        color: white;
+    }
+    .container {
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .contact-left p {
+    }
+    .icon-format{
+        width: 12px;
+        height: 22px;
+        margin-top: 10px;
+    }
+    .icon-format>.fa {
+        font-size: 25px;
+        padding-right: 15px;
+        color: #9eaaad;
+        transition: all .2s;
+        float: left;
+        margin: 0 5% 0 0;
+        display: inline-block;
+        margin-top: 44px;
+        margin-left: 56px;
+        color: blue;
+    }
+
+    .fa-facebook:hover {color: red;transition: 0.5s;}
+
+
+    .fa-youtube:hover {color: red;transition: 0.5s;}
+
+
+
+    h3.FB:hover {
+        color: red;
+        transition: 1s;
+    }
+    .address-grid {
+        padding: 0.2em 0;
+    }
+    .address-grid i {
+        color: #87a774;
+        font-size: 2em;
+        float: left;
+        margin: 0 5% 0 0;
+        display: inline-block;
+        line-height: 2em;
+        cursor: pointer;
+    }
+
+i.fa.fa-mobile:hover {
+    color: red;
+    transition: 1s;
+}
+
+i.fa.fa-youtube:hover {
+    color: red;
+    transition: 1s;
+}
+    .address1{
+        height: 72px;
+        margin-left: 99px;
+    }
+    .address1 h3 {
+        font-size: 1.2em;
+        color: #000;
+        line-height: 1.4em;
+        font-family: 'Ubuntu-Regular';
+    }
+    .address1 p {
+    padding-left: 54px;
+    }
+    .contact-left p {
+        font-size: 0.9em;
+        color: #B3B3B3;
+        line-height: 1.8em;
+        font-weight: 800;
+        width: 100%;
+        margin: 0em 0 0;
+    }
+    .address {
+        padding: 1.5em 1em 0;
+        margin-top: 0px;
+    }
+    .a1{
+        margin-top: -3px!           important;
+    }
+    .contact-top h3 {
+    /* font-size: 1.5em; */
+    color: #000;
+    /* line-height: 1.4em; */
+    /* font-family: 'Ubuntu-Regular'; */
+    /* margin-top: 58px; */
+}
+.contact-top div {
+    padding: 0.5em 0;
+}
+.contact-top div span {
+    color: #000;
+    font-size: 0.9em;
+    font-weight: 600;
+}
+.contact-top div input[type="text"], .contact-top div textarea {
+    width: 100%;
+    padding: 0.7em;
+    margin: 0.4em 0 0;
+    background: none;
+    outline: none;
+    border: 1px solid #F3EFEF;
+    -webkit-appearance: none;
+}
+.contact-top label {
+    font-weight: 400;
+    cursor: pointer;
+}
+html, body {
+    background: url(hinh/1.jpg);
+    font-size: 100%;
+    font-family: 'Oxygen-Regular';
+    background-size: cover;
+}
+.contact-form{
+    width: 100%;
+    height: 570px;
+    background: white;
+    padding: 50px 20px;
+    margin-bottom: 55px;
+}
+#succes{
+    position: fixed;
+    background-color: #68d6f7;
+    width: 300px;
+    height: 150px;
+    border-radius: 10px;
+    text-align: center;
+    bottom: 300px;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    left: 575px;
+}
+
+input[type="button"] {
+    width: 100%;
+    height: 100%;
+}
+
+div#a1 input {width: 70px;height: 30px;background-color: red;border-radius: 5px;}
+.closeee{
+    width: 18px;
+    height: 20px;
+    background-color: red;
+    margin-left: 280px;
+}
+    
+#behind{
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    opacity: 1;
+    background-color: red;
+    z-index: 1;
+    position: fixed;
+
+}

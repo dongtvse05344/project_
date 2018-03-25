@@ -1,0 +1,28 @@
+*{margin: 0;padding: 0;font-family: 'Quicksand', sans-serif;}
+
+a.btn {
+    background: #87a774bf;
+    color: white;
+    font-size: 25px;
+    width: 200px;
+    height: 48px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -24px;
+    margin-left: -100px;
+    transition: 0.4s;
+}
+
+a.btn:hover {
+    background: #87a774;
+}
+
+.on {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(img/vlt.jpg);
+    background-size: cover;
+    text-align: center;
+}

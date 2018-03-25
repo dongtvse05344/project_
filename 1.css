@@ -1,61 +1,32 @@
 *{margin: 0;padding: 0;font-family: 'Quicksand', sans-serif;}
 
-._ span {
-    color: white;
+.row.imgs {
+    background: url(img/top/0.jpg);
+    background-size: contain;
+    margin-top: 50px;
 }
 
-.foo-2 li {
-    font-size: 17px;
-    margin: 5px 0px 5px 20px;
+.topimg img {
+    width: 95%;
 }
 
-.foo-2 ul {
-    list-style: none;
-}
-
-footer p {
-    margin: 9px 0px 30px 0px;
-}
-
-p._ {
+.topimg {
     text-align: center;
-    width: 100%;
-    color: #a5a5a5;
-    margin: 23px 0px;
+    margin: 21px 0px;
 }
 
-.social i {
-    width: 50px;
-    height: 50px;
-    line-height: 50px;
-    border: 1px solid white;
-    text-align: center;
-    border-radius: 50%;
-    font-size: 20px;
-    cursor: pointer;
-    transition: 0.3s;
+.khoianh p {
+    width: 1000px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
-.social i:hover {
-    border: 1px solid #87a774;
+.submenu h4.title {
+    text-transform: uppercase;
+    text-align: left;
 }
 
-ul.social li {
-    float: left;
-    width: 33.33%;
-    /* text-align: center; */
-}
-
-ul.social {
-    list-style: none;
-    width: 65%;
-}
-
-footer {
-    background: #46515d;
-    color: #ededed;
-    padding-top: 60px;
-}
 
 
 .menu-top {position: absolute;z-index: 1;opacity: 0.4;}
@@ -114,13 +85,17 @@ footer {
 }
 
 .submenu>li>ul>li {
-    text-transform: uppercase;
     font-size: 20px;
-    margin: 8px 0px;
-    border-bottom: 1px solid #8080804f;
+    margin: 5px 0px;
+    border-bottom: 1px solid #b8b8b84f;
+    text-align: left;
+    color: gray;
+    transition: 0.2s;
 }
 
-.submenu>li>ul>li:hover {font-weight: bold;}
+.submenu>li>ul>li:hover {
+    color: black;
+}
 
 a.sub {
     color: #e6ffd8;
@@ -155,10 +130,9 @@ a.sub:hover {
 }
 
 ul.submenu {
-    width: 500px;
+    width: 100%;
     background: white;
     position: absolute;
-    left: 25px;
     opacity: 0;
     visibility: hidden;
     top: 30px;
@@ -320,7 +294,7 @@ p.des {
 .description {
     text-align: center;
     width: 100%;
-    padding: 90px 0px 20px 0px;
+    padding: 100px 0px 20px 0px;
 }
 
 .description h1 {
@@ -359,6 +333,7 @@ a.btn {
     background: #87a77461;
     font-size: 20px;
     transition: 0.2s;
+    margin: 10px 0px;
 }
 
 a.btn:hover {
@@ -367,9 +342,12 @@ a.btn:hover {
 }
 
 .khoianh h1 {
-    margin-top: 20%;
     font-size: 60px;
     font-weight: bold;
+    text-transform: uppercase;
+    width: 1000px;
+    margin: auto;
+    margin-top: 20%;
 }
 h1 {
     font-family: 'Arvo', serif;
@@ -451,7 +429,3 @@ h1 {
         transform: scale(1);
     }
 }
-
-
-
-

@@ -11,6 +11,7 @@ i.fa.fa-arrow-up {
     line-height: 50px;
     cursor: pointer;
     color: white;
+    z-index: 3;
 }
 
 .choice li {

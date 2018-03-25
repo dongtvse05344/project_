@@ -1,22 +1,26 @@
-﻿var pos = 1;
+﻿var poskhoianh = 1;
 
 function init(){
 		setInterval(function(){ 
 
-			pos++;
-			pos = pos >  $('.khoianh').length ? 1 : pos;
+			poskhoianh++;
+			poskhoianh = poskhoianh >  $('.khoianh').length ? 1 : poskhoianh;
 			var hide = $('.active');
 			$('.khoianh').removeClass('active');
 			hide.addClass('hidee').one('webkitAnimationEnd', function(event) {
 	 			hide.removeClass('hidee');
 	 		});
-			$('.khoianh:nth-child('+pos+')').addClass('active');
+			$('.khoianh:nth-child('+poskhoianh+')').addClass('active');
 
 
 		}, 10000);		
 }
 $(function(){
 	$('.khoind').addClass('wow');
+	$('.khoind').click(function(event) {
+		/* Act on the event */
+		window.location.href = "detail.html";
+	});
 	$('.khoind').addClass('bounceIn');
 
 	pos = 2;
@@ -42,27 +46,28 @@ $(function(){
 	//carousel
 
 	$('.turnleft').click(function(event) {
-		pos--;
-		pos = pos <= 0 ? $('.khoianh').length : pos;
+		poskhoianh--;
+		poskhoianh = poskhoianh == 0 ? $('.khoianh').length : poskhoianh;
+
 		var hide = $('.active');
 		$('.khoianh').removeClass('active');
 		hide.addClass('hide').one('webkitAnimationEnd', function(event) {
  			hide.removeClass('hide');
  		});
 
-		$('.khoianh:nth-child('+pos+')').addClass('active');
+		$('.khoianh:nth-child('+poskhoianh+')').addClass('active');
 		});
 
 
 	$('.turnright').click(function(event) {
-		pos++;
-		pos = pos >  $('.khoianh').length ? 1 : pos;
+		poskhoianh++;
+		poskhoianh = poskhoianh >  $('.khoianh').length ? 1 : poskhoianh;
 		var hide = $('.active');
 		$('.khoianh').removeClass('active');
 		hide.addClass('hider').one('webkitAnimationEnd', function(event) {
  			hide.removeClass('hider');
  		});
-		$('.khoianh:nth-child('+pos+')').addClass('active');
+		$('.khoianh:nth-child('+poskhoianh+')').addClass('active');
 		});
 
 	$('.khoicarousel').bind('mousewheel', function(e) {
@@ -95,6 +100,5 @@ $(function(){
  		var a = $(this).next();
  		a.removeClass('active');
  	});
-
 
 })
